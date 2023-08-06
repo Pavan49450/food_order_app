@@ -1,0 +1,40 @@
+.CartItem{
+    display:flex;
+    align-items: center;
+    border-bottom:1px solid #FC4A1A;
+    justify-content: space-between;
+}
+.CartItem_info{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+.CartItem_count_price{
+    display:flex;
+    flex-direction:row;
+}
+
+.CartItem_count_price .CartItem-price{
+    color:red;
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:5px;
+
+}
+.CartItem_count_price .CartItem-amount{
+    border:1px solid silver;
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:5px;
+}
+.CartItem_info h3{
+    margin:5px; 
+}
+
+.CartItem_actions Button{
+    padding:5px;
+    padding: 5px 7px 5px 7px;
+    border-radius: 5px;
+}

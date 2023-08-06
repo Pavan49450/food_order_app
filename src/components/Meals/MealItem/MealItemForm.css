@@ -1,0 +1,14 @@
+.add_btn{
+  width: 100px;
+  height: 35px;
+}
+input{
+  border: 1px solid grey;
+  outline: 0px solid;
+  width: 40px;
+  height: 20px;
+  border-radius:5px ;
+}
+.amount_input{
+  margin-right: 10px;
+}

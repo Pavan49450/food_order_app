@@ -1,0 +1,94 @@
+/* const inputNameClasses = nameIsInvalid ?"Checkout_form-control invalid" :"Checkout_form-control";
+  const inputAddressClasses = addressIsInvalid ?"Checkout_form-control invalid" :"Checkout_form-control";
+  const inputPinCodeClasses = pinCodeIsInvalid ?"Checkout_form-control invalid" :"Checkout_form-control";
+  const formSumbitBtnClasses = !formIsValid ?"Checkout_form-actions invalidBtn" :"Checkout_form-actions"
+  const nameInvalidClasses = nameIsInvalid ?"invalid_msg show" :"invalid_msg";
+  const addressInvalidClasses = addressIsInvalid ?"invalid_msg show" :"invalid_msg";
+  const pinCodeInvalidClasses = pinCodeIsInvalid ?"invalid_msg show" :"invalid_msg"; */
+
+.Checkout_form{
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  background-color: white;
+  border: 2px solid #FC4A1A;
+  /* border-top: 2px solid #FC4A1A;
+  border-bottom: 2px solid #FC4A1A; */
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-top: 20px;
+  align-items: flex-start;
+  animation: fadeIn 1s;
+  /* position: relative;
+  bottom:80px; */
+}
+@keyframes fadeIn{
+  0%{
+    scale: 0.9;
+  }
+  100%{
+    scale: 1;
+  }
+}
+.Checkout_form-control{
+  width: 90%;
+  padding: 5px;
+  border: 0px solid;
+  border-bottom: 2px solid #FC4A1A;
+  border-radius: 0px;
+  /* font-size: 105%; */
+  margin: 10px;
+  margin-left: 0;
+}
+.invalid{
+  border-color:grey ;
+}
+.invalid_msg{
+  color: red;
+  visibility: hidden;
+  margin:0px;
+}
+.show{
+  visibility: visible;
+}
+.Checkout_form-action{
+  /* padding: 10px; */
+  /* font-size: 105%; */
+  box-shadow: 0px 0px 0px;
+
+}
+.invalidBtn{
+  background-color: grey;
+}
+.invalidBtn:hover{
+  color: white;
+  background-color: grey;
+  border: 0px solid;
+  box-shadow: 0px 0px 0px;
+}
+.form-actions{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  /* padding: 5px; */
+  /* padding-right: 20px; */
+}
+.form_cancel_btn{
+  padding: 10px;
+  /* font-size: 105%; */
+  box-shadow: 0px 0px 0px;
+}
+.form_cancel_btn:hover{
+  border: 0px solid;
+}
+
+.Submit_msg{
+      text-align: center;
+    background-color: #FC4A1A;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

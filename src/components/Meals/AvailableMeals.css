@@ -1,0 +1,45 @@
+.meals{
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  bottom: 100px;
+  border-radius: 10px;
+  padding:10px;
+  animation: slipIn 1s;  
+}
+
+  
+.Meals_error{
+  display: block;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  bottom: 100px;
+  border-radius: 10px;
+  padding:10px;
+  text-align: center;
+  color: red;
+  font-size: 120%;
+  font-weight: 700;
+}
+.meals ul{
+  list-style-type: none;
+  margin: 0px;
+  padding:0px;
+  display: flex; 
+  flex-direction: column;
+}
+.meals ul li{
+  margin: 2px;
+}
+
+@keyframes slipIn{ 
+  0%{ 
+    scale: 0.9;
+  }
+  100%{
+    scale: 1; 
+  }       
+}     

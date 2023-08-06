@@ -1,0 +1,21 @@
+.summary{
+  background-color: #414141;
+  padding:10px;
+  margin: auto;
+  width: 60%;
+  box-shadow: 0px 0px 15px #181818;
+  border-radius: 10px;
+  position: relative;
+  bottom: 120px;
+}
+.summary p{
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+.summary h2{
+  margin: 10px;
+  padding:5px;
+  text-align: center;
+  color: white;
+}

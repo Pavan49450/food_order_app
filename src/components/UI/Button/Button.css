@@ -1,0 +1,18 @@
+button{
+    border: 0px solid grey;
+    box-shadow:0px 0px 6px grey;
+    background-color:#FC4A1A;
+    border-radius: 10px;
+    color:white;
+    margin: 10px;
+    padding: 5px;
+}
+button:hover{
+    box-shadow:0px 0px 10px grey;
+    background-color: white;
+    color: #FC4A1A;
+    border: 1px solid #FC4A1A;
+}
+button:focus{
+  box-shadow: 0px 0px 0px;
+}

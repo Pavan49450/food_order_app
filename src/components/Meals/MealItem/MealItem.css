@@ -1,0 +1,36 @@
+.mealItem_info{
+  display: grid;
+  /* grid-template-areas:
+    'name name'
+    'price description';
+  border:1px solid silver; */
+}
+.mealItem_info .meal-price{
+  color: red;
+  padding:5px;
+  /* grid-area: price; */
+}
+.mealItem_info .meal-description{
+  padding:5px;
+  /* grid-area: description; */
+
+}
+.mealItem_info .meal-name{
+  /* grid-area: name; */
+  padding:5px;
+  margin:0px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding:5px;
+}
+.mealItem{
+  border-bottom: 1px solid silver;
+  display: grid;
+  grid-template-areas: 'item form';
+}
+.mealItem:last-of-type{
+  border: 0px solid; 
+} 

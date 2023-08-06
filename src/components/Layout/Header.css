@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto+Condensed:wght@300&family=Ubuntu:wght@300&display=swap');
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:purple; */
+    background:url('../../assets/brown.jfif') no-repeat center/cover;
+    position: sticky;
+    top:0px;
+    z-index: 10;
+    /* border-bottom: 1px solid #efdfdd;
+    border-left: 1px solid #efdfdd;
+    border-right: 1px solid #efdfdd; */
+    box-shadow: 0px 0px 6px grey;
+}
+.header h1{
+    margin: 10px;
+    padding: 0px;
+	font-style: 'Ubuntu';
+    color: white;
+
+}
+.header h1 span{
+    font-size: 70%;
+    font-family: 'Roboto';
+    color: #FC4A1A ;
+}
+.header h1 span:hover{
+  margin:5px;
+  transition:all 0.3s ease-out;
+}
+.image{
+    width: auto;
+    display: flex;
+    z-index: -2;
+    margin:0rem 2rem;
+}
+.image img{
+    margin: auto;
+    /* position: fixed; */
+    width: 80%;
+    height: 60%;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    font-weight: 700;
+    /* border: 0px solid grey ;
+    box-shadow: 0px 0px 6px grey;
+    background-color: #FC4A1A;
+    border-radius: 10px;
+    color: white;
+    margin: 10px; */
+}
+.btn:hover{
+  background-color:red;
+  margin-right:15px;
+  transition:all 0.3s ease-out;
+}
+.btn:focus{
+  box-shadow:0px 0px 0px;
+  animation-name: bump;
+  animation-duration: 0.5s;
+}
+.btn span{
+    color: white;
+    font-size: 135%;
+    margin: 3px;
+}
+.btn .count{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px #faa289;
+}
+
+@keyframes bump{
+    0%{
+        transform: scale(1);
+    }
+    /* 10%{
+        transform: scale(0.9);
+    }
+    30%{
+        transform: scale(1.1);
+    } */
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+/* .btn span h3{
+    font-size: 50%;
+    margin: 0px;
+    padding: 0px;
+} */
